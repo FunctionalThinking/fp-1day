@@ -15,3 +15,4 @@ Java 개발자, C 개발자들에게 직접적인 도움이 될 수 있도록 '�
 
 ## 이야기 구조
 bottom-up language와 top-down language를 대비시킨다. 그 후 수학적 표현을 어떻게 프로그래밍으로 바꿀 수 있을까? 질문을 던진다.
+그리고 binding과 reduction얘기를 한다.
