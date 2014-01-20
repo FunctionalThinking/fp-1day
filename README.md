@@ -25,6 +25,8 @@ bottom-up language와 top-down language를 대비시킨다. 그 후 수학적 �
 
 **Function**: Functional Programming에서 function은 수학에서 말하는 function에 다름 아니다. 함수는 어떤 특징을 가지는가? 함수는 동일한 입력에 대해서는 동일한 결과를 내놓는다. 아무리 여러 번 함수를 호출해도 같은 입력을 준다면 언제나 같은 결과를 얻을 수 있다. 이를 **referential transparency**라고 한다. 함수형 프로그래밍에는 **"상태(state)가 없다"**고 하는 것이 이러한 이유 때문이다. 이는 또한 **side effect free**와 관련이 있다. 만약 함수의 호출이 프로그램의 상태에 영향을 받는다면 동일한 입력에 대해 언제나 같은 결과를 얻는다고 보장 할 수 없다. 함수형 프로그래밍은 함수들의 조합으로 프로그래밍을 구성하기에 입력값이 같다면 언제나 같은 결과를 얻을 수 있다.
 
+**Applicative Programming**: functional programming을 뜻하는 비슷한 말로는 applicative programming이 있는데, 해당 프로그래밍 방법의 근본 구조가 application of a function to its argument라는 뜻에서 applicative programming이라고 부른다. 즉, 어떤 함수 f가 있을 때 이 함수 f에 인자 x를 적용하는 것이 해당 프로그래밍 방법의 근본 구조라는 뜻이다.
+
 **Higher Order Function**:
 
 **Assignment vs. Binding**: 
